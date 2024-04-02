@@ -1,0 +1,52 @@
+.container-fluid > * {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-setting {
+  background-color: #1d279d;
+  height: 50px;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+  /* margin-top: -5px; */
+}
+
+.navbar-toggler {
+  margin-top: -5px; /* 根据需要调整这个值 */
+}
+
+.navbar-collapse {
+  background-color: #1d279d; /* 这里设置成你的 navbar 的背景色 */
+  overflow: hidden;
+  transition: max-height 0.35s ease-in-out; /* 调整为你认为合适的速度 */
+  width: 100%;
+}
+
+.navbar-collapse.show {
+  transition: max-height 0.5s ease-in-out;
+}
+
+.right-one {
+  padding: 0px 4px;
+  margin: 0 0px;
+  font-size: 10px;
+}
+
+.right-one:last-child {
+  margin-right: 18px;
+}
+
+.nav-border {
+  border: 1px solid rgb(255, 253, 253); /* 设置边框颜色和宽度 */
+  border-radius: 12px; /* 设置边框圆角的大小 */
+}
+
+.nav-link {
+  color: #c6c6c8 !important;
+}
+
+.right-one .nav-link:hover {
+  color: rgb(223, 223, 223) !important;
+}
